@@ -1,2 +1,2 @@
 # ascension-css
-External CSS file for kcascension.org
+External CSS files for kcascension.org
