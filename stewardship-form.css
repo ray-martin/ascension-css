@@ -1,0 +1,128 @@
+.stewardshipNameWrap {
+    text-align: center;
+    background: #04294b;
+}
+
+.stewardshipHeader H2 {
+    font-family: Baskerville Old Face;    
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+p, li {
+    font-family: "Corbel", Actor, sans-serif;
+    line-height: 1.4em;
+    color: #04294b;
+}
+
+.stewardshipHeader p {
+    color: #04294b;
+    font-variant: small-caps;
+    text-align: center;
+    margin-bottom: 1em;;
+}
+
+.stewardshipDropCap p::first-letter {
+    color: #A52A2A;
+    float: left;
+    font-size: 4em;
+    margin: 0 .1em 0 0;
+    line-height: 0.33;
+}
+
+.stewardshipExpectations {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-areas: "churchPic wayOfLife"
+                          "registered registered"
+                          "practicing volunteering";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#churchPic {
+    grid-area: churchPic;
+    padding: 1em;
+}
+
+#wayOfLife {
+    grid-area: wayOfLife;
+}
+
+#registered {
+    grid-area: registered;
+}
+
+#practicing {
+    grid-area: practicing;
+}
+
+#volunteering {
+    grid-area: volunteering;
+}
+
+.timeTalentTreasure {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-areas: "timeTalent timeTalent treasure"
+                         "spirituality ministryOfCare treasure"
+                         "formation parishLife treasure";
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: auto;
+}
+
+#timeTalent {
+    grid-area: timeTalent;
+}
+
+#treasure {
+    grid-area: treasure;
+}
+
+#spirituality {
+    grid-area: spirituality;
+}
+
+#ministryOfCare {
+    grid-area: ministryOfCare;
+}
+
+#formation {
+    grid-area: formation;
+}
+
+#parishLife {
+    grid-area: parishLife;
+}
+
+.timeTalentTreasure h3 {
+    color: #A52A2A;
+    font-family: Corbel, Actor, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: #04294b;
+    text-decoration-thickness: 0.025em;
+}
+
+.timeTalentTreasure h4 {
+    color: #04294b;
+    font-family: Corbel, Actor, sans-serif;
+    text-decoration-line: underline;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 64em) { /*Tablet*/
+
+}
+
+@media screen and (max-width: 37.5em) { /*Mobile*/
+    .stewardshipExpectations {
+        display: block;
+    }
+
+    .timeTalentTreasure {
+        display: block;
+    }
+}
