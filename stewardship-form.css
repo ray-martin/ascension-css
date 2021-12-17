@@ -122,7 +122,7 @@
 /* FORM */
 #choice_14_36_3, #choice_14_11_1 { /* Fixes a couple misaligned checkboxes */
     vertical-align: top;
-    margin-top: 0.25em;
+    margin-top: 0.2em;
 }
 
 #gform_wrapper_14 h2, h3, h4 {
