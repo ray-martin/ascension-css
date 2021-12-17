@@ -115,7 +115,7 @@ p, li {
 
 #choice_14_36_3, #choice_14_11_1 { /* Fixes a couple misaligned checkboxes */
     vertical-align: top;
-    margin-top: 0.25em;
+    margin-top: 0.33em;
 }
 
 @media screen and (max-width: 64em) { /*Tablet*/
