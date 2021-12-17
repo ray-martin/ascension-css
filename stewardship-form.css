@@ -113,10 +113,22 @@ p, li {
     font-size: 1.3em;
 }
 
+/* FORM */
 #choice_14_36_3, #choice_14_11_1 { /* Fixes a couple misaligned checkboxes */
     vertical-align: top;
     margin-top: 0.33em;
 }
+
+#gform_wrapper_14 h2, h3, h4 {
+    font-family: Corbel, Actor, sans-serif;
+    color: #A52A2A;
+}
+
+legend, label {
+    font-family: Corbel, Actor, sans-serif;
+    color: #04294b;
+}
+
 
 @media screen and (max-width: 64em) { /*Tablet*/
 
