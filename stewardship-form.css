@@ -113,6 +113,11 @@ p, li {
     font-size: 1.3em;
 }
 
+#choice_14_36_3, #choice_14_11_1 { /* Fixes a couple misaligned checkboxes */
+    vertical-align: top;
+    margin-top: 0.25em;
+}
+
 @media screen and (max-width: 64em) { /*Tablet*/
 
 }
