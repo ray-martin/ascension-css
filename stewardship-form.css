@@ -137,7 +137,7 @@ legend, label {
 
 
 @media screen and (max-width: 64em) { /*Tablet*/
-    stewardshipHeader h2 {
+    .stewardshipHeader h2 {
         font-size: 5vw;
     }
 }
