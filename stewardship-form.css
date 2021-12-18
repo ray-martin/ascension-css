@@ -140,6 +140,23 @@ legend, label {
     .stewardshipHeader h2 {
         font-size: 5vw;
     }
+
+    .stewardshipExpectations {
+        display: block;
+    }
+
+    .timeTalentTreasure {
+    grid-template-areas: "timeTalent timeTalent"
+                         "spirituality ministryOfCare"
+                         "formation parishLife"
+                         "treasure treasure";
+    grid-template-columns: 1fr 1fr;
+    }
+
+    #choice_14_11_2, #choice_14_11_3, #choice_14_11_4, #choice_14_37_2 { /* Fixes a couple misaligned checkboxes */
+    vertical-align: top;
+    margin-top: 0.2em;
+    }
 }
 
 @media screen and (max-width: 37.5em) { /*Mobile*/
@@ -153,5 +170,14 @@ legend, label {
 
     .timeTalentTreasure {
         display: block;
+    }
+
+    .stewardshipDropCap p::first-letter {
+    font-size: 2.5em;
+    }
+
+    #choice_14_37_1 {
+    vertical-align: top;
+    margin-top: 0.2em;
     }
 }
