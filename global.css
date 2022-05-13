@@ -178,6 +178,13 @@ iframe {
     box-shadow: .3em .5em .8em #111, -.2em -.2em .3em #333;
 }
 
+.homeCard {
+    margin: .3em;
+    max-width: 14em;
+    padding: 0;
+    box-shadow: .3em .5em .8em #111, -.2wm .3em #333;
+}
+
 /*--------------------------------------------------------------
   Home Page Bookmark Icons
 --------------------------------------------------------------*/
