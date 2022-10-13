@@ -301,7 +301,7 @@ iframe {
 /*--------------------------------------------------------------
   Blog Post Stylings
 --------------------------------------------------------------*/
-.entry-post-navigation.entry--item {
+.nav-links {
     display: none;	
 } /*hides the navigation to next post at bottom in Customify theme*/
 
