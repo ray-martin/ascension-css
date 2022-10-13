@@ -716,7 +716,11 @@ a.bluebutton:visited {
 /*--------------------------------------------------------------
 Footer Design - Customify Theme
 --------------------------------------------------------------*/
-.customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-5, .customify-col-3_md-3_sm-6_xs-12.builder-item.builder-first--footer-4, .customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-3, .customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-2, .customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-1 {
+.customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-5, 
+.customify-col-3_md-3_sm-6_xs-12.builder-item.builder-first--footer-4, 
+.customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-3, 
+.customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-2, 
+.customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-1 {
     min-width: 300px;
 }
 
