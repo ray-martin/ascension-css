@@ -716,6 +716,10 @@ a.bluebutton:visited {
 /*--------------------------------------------------------------
 Footer Design - Customify Theme
 --------------------------------------------------------------*/
+.customify-grid.customify-grid-top { /*Footer Flex Container*/
+    justify-content: center;
+}
+
 .customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-5, 
 .customify-col-3_md-3_sm-6_xs-12.builder-item.builder-first--footer-4, 
 .customify-col-2_md-2_sm-6_xs-12.builder-item.builder-first--footer-3, 
@@ -724,9 +728,6 @@ Footer Design - Customify Theme
     min-width: 300px;
 }
 
-.customify-grid.customify-grid-top { /*Footer Flex Container*/
-    justify-content: center;
-}
 
 
 
