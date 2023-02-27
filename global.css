@@ -752,11 +752,11 @@ Footer Design - Customify Theme
   #homeHeader {
         margin: 0;
         padding: 0 1em 1em 1em;
-    }
+  }
 
-   #letterHead {
+  #letterHead {
         max-width: 100%;
-    }
+  }
   
   #homeBookmarks {
       margin: 1em .1em;
@@ -766,11 +766,12 @@ Footer Design - Customify Theme
   #covidUL {
     margin: 0;
     padding: 0 .5em .5em 0;
-}  
+  }  
   
   #weatherUL {
     margin: 0;
     padding: 0 .5em .5em 0;
+  }
 }
   
 @media screen and (max-width: 37.5em) { /* 600px theme */
