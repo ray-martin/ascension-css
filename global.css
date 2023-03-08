@@ -1,4 +1,33 @@
+/*--------------------------------------------------------------
+ Customify Theme Adjustments - Homepage
+--------------------------------------------------------------*/
 
+.page-id-20 #page-titlebar {
+    display: none;
+}
+
+.page-id-20 #main {
+    padding-top: 0;
+}
+
+.page-id-20 .customify-container {
+    margin: 0; padding: 0;
+    width: 100%; max-width: 100%;
+}
+
+.page-id-20 .row-v2.row-v2-main.no-center {
+    padding: 0 2em;
+}
+
+.page-id-20 #main {
+    width: 100%; max-width: 100%;
+    padding: 0; margin: 0;
+}
+
+.page-id-20 .entry-content {
+    width: 100%; max-width: 100%;
+    padding: 0; Margin: 0;
+}
 
 /*--------------------------------------------------------------
  YouTube Responsive Video Styling on Wide Pages
