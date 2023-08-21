@@ -49,7 +49,7 @@ iframe {
 #homeHeader { /* Wrapper for the entire Header - Card Area */
     background-color: #fff;
     padding: 0 7% 2% 7%;
-    margin: 0;
+    margin: 1% 0 0 0;
     text-align: center;
 }
 
